@@ -1,0 +1,17 @@
+rows valid 1238926 of 1311912
+{'max_depth': 4, 'learning_rate': 0.05, 'val_wape': np.float64(0.02782718526753253)} 13
+{'max_depth': 4, 'learning_rate': 0.1, 'val_wape': np.float64(0.02781965141099118)} 25
+{'max_depth': 6, 'learning_rate': 0.05, 'val_wape': np.float64(0.027830171185501802)} 40
+{'max_depth': 6, 'learning_rate': 0.1, 'val_wape': np.float64(0.02784288126040544)} 55
+{'max_depth': 8, 'learning_rate': 0.05, 'val_wape': np.float64(0.027839788474715844)} 73
+{'max_depth': 8, 'learning_rate': 0.1, 'val_wape': np.float64(0.027875051922196577)} 92
+locked params {'max_depth': 4, 'learning_rate': 0.1} A on val 0.03718680518759393 naive on val 0.028363447085005964
+2025-07 Summer 35820 WAPE A 0.0378 Naive 0.0292 B 0.0286 107
+2025-10 Fall 35519 WAPE A 0.0371 Naive 0.0286 B 0.0279 125
+2026-01 Winter 35599 WAPE A 0.0366 Naive 0.0291 B 0.0281 144
+2026-04 Spring 34726 WAPE A 0.0366 Naive 0.0286 B 0.0279 166
+2025-08 Summer (adjacent) 35960 WAPE A 0.0371 Naive 0.0285 B 0.0278 182
+2025-11 Fall (adjacent) 34588 WAPE A 0.0361 Naive 0.0277 B 0.0272 200
+2026-02 Winter (adjacent) 32508 WAPE A 0.0368 Naive 0.0291 B 0.0283 220
+2026-05 Spring (adjacent) 36115 WAPE A 0.0370 Naive 0.0287 B 0.0281 242
+done 242

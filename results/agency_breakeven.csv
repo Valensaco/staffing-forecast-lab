@@ -1,0 +1,4 @@
+method,buffer_hours_per_facday,shortfall_hours_per_facday_lean,breakeven_agency_premium_x
+Method A (weekday average),21.532645062505438,4.692554253122076,4.5886832417929355
+Baseline (same day last week),18.137022814547073,3.8092715156991193,4.761283814975937
+Method B (XGBoost forecast),16.595426312093558,3.6226050773796703,4.5810752090309235

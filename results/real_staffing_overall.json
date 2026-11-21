@@ -1,0 +1,9 @@
+{
+ "mean_hprd": 3.310576101464721,
+ "share_below_target": 52.00602089382277,
+ "ctr_share": 2.979059338072338,
+ "weekend_hprd": 2.904025895935412,
+ "weekday_hprd": 3.473466859388305,
+ "mean_census": 74.6360449899809,
+ "facility_days": 1271572
+}

@@ -1,0 +1,45 @@
+{
+ "rows_raw": 1276922,
+ "dup_rows": 0,
+ "state_values": [
+  "TX"
+ ],
+ "emp_plus_ctr_mismatch_rows": 0,
+ "census_le0": 116,
+ "hprd_gt10": 1795,
+ "hprd_gt20": 180,
+ "hprd_lt0.5": 2477,
+ "hprd_eq0": 1678,
+ "hprd_max": Infinity,
+ "calendar_days": 1096,
+ "facilities": 1200,
+ "facilities_full_coverage": 1085,
+ "facility_days_present": 1276922,
+ "facility_days_possible": 1315200,
+ "census_jump_gt50pct": 27,
+ "rules": {
+  "R1_census_le_0_set_missing": {
+   "rows": 116,
+   "facilities": 4
+  },
+  "R2_facilities_dropped_chronic_hprd_gt_10": {
+   "facilities": [
+    "455683",
+    "675086",
+    "675370"
+   ],
+   "rows": 2375
+  },
+  "R3_hours_implausible_set_missing": {
+   "rows": 2859,
+   "of_which_gt10": 382,
+   "of_which_lt0.5": 2477
+  },
+  "R4_isolated_census_spikes_set_missing": {
+   "rows": 0
+  }
+ },
+ "rows_after_cleaning": 1274547,
+ "facilities_after_cleaning": 1197,
+ "note_kept": "Month-start census step changes (27 rows >50% jump) kept: they look like real level shifts (admissions batches / census recalculation), which any forecast must live with."
+}

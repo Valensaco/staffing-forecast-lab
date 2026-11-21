@@ -1,0 +1,39 @@
+{
+ "grid": [
+  {
+   "max_depth": 4,
+   "learning_rate": 0.05,
+   "val_wape": 0.02782718526753253
+  },
+  {
+   "max_depth": 4,
+   "learning_rate": 0.1,
+   "val_wape": 0.02781965141099118
+  },
+  {
+   "max_depth": 6,
+   "learning_rate": 0.05,
+   "val_wape": 0.027830171185501802
+  },
+  {
+   "max_depth": 6,
+   "learning_rate": 0.1,
+   "val_wape": 0.02784288126040544
+  },
+  {
+   "max_depth": 8,
+   "learning_rate": 0.05,
+   "val_wape": 0.027839788474715844
+  },
+  {
+   "max_depth": 8,
+   "learning_rate": 0.1,
+   "val_wape": 0.027875051922196577
+  }
+ ],
+ "locked": {
+  "max_depth": 4,
+  "learning_rate": 0.1
+ },
+ "tuning_window": "train t<2025-03-01, validate 2025-03-01..2025-06-30"
+}
