@@ -90,6 +90,12 @@ ROI = (savings minus switching cost) divided by switching cost. Full grid (wages
 
 **Agency vs buffer:** holding a buffer in own staff to cover 95% of days costs about 16.6 extra hours per facility-day, while filling the shortfalls of a lean schedule with agency staff takes about 3.6. Agency is cheaper unless it costs more than about **4.6x** the normal rate (this assumes agency staff can be found on short notice).
 
+## Power BI dashboard
+
+![Power BI dashboard](powerbi/dashboard-preview.png)
+
+One page with the key results: planning error, days scheduled short, wasted hours at 95% coverage, error by season, real staffing by weekday against the 3.48 benchmark, and the ROI range. Open `powerbi/staffing-dashboard.pbix` in Power BI Desktop (data is stored in the file; the four source CSVs are in `powerbi/`). The ROI chart is filtered to a $32 wage, a $75,000 build cost and a 20-facility operator, which are labeled assumptions.
+
 ## Data cleaning (every rule logged)
 
 | Rule | Rows touched |
