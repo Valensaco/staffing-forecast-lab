@@ -94,7 +94,7 @@ ROI = (savings minus switching cost) divided by switching cost. Full grid (wages
 
 ![Power BI dashboard](powerbi/dashboard-preview.png)
 
-One page with the key results: planning error, days scheduled short, wasted hours at 95% coverage, error by season, real staffing by weekday against the 3.48 benchmark, and the ROI range. Open `powerbi/staffing-dashboard.pbix` in Power BI Desktop (data is stored in the file; the four source CSVs are in `powerbi/`). The ROI chart is filtered to a $32 wage, a $75,000 build cost and a 20-facility operator, which are labeled assumptions.
+One page with the key results: planning error, days scheduled short, wasted hours at 95% coverage, error by season, real staffing by weekday against the 3.48 benchmark, and the ROI range. Open `powerbi/staffing-dashboard.pbix` in Power BI Desktop (the data is embedded in the file, so it opens and refreshes without any local files; the four source CSVs are also in `powerbi/`). The ROI chart is filtered to a $32 wage, a $75,000 build cost and a 20-facility operator, which are labeled assumptions.
 
 ## Data cleaning (every rule logged)
 
